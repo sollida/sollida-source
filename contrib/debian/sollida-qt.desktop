@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=sollida
+Comment=sollida P2P Cryptocurrency
+Comment[fr]=sollida, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=sollida, eşten eşe kriptografik sanal para birimi
+Exec=sollida-qt %u
+Terminal=false
+Type=Application
+Icon=sollida128
+MimeType=x-scheme-handler/sollida;
+Categories=Office;Finance;

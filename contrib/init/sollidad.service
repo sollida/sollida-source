@@ -1,0 +1,26 @@
+[Unit]
+Description=sollida's distributed currency daemon
+After=network.target
+
+[Service]
+User=sollida
+Group=sollida
+
+Type=forking
+PIDFile=/var/lib/sollidad/sollidad.pid
+
+ExecStart=/usr/bin/sollidad -daemon -pid=/var/lib/sollidad/sollidad.pid \
+          -conf=/etc/sollida/sollida.conf -datadir=/var/lib/sollidad
+
+ExecStop=-/usr/bin/sollida-cli -conf=/etc/sollida/sollida.conf \
+         -datadir=/var/lib/sollidad stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

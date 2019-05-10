@@ -1,0 +1,36 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/sollida_bg.qm</file>
+        <file alias="ca">locale/sollida_ca.qm</file>
+        <file alias="cs">locale/sollida_cs.qm</file>
+        <file alias="da">locale/sollida_da.qm</file>
+        <file alias="de">locale/sollida_de.qm</file>
+        <file alias="en">locale/sollida_en.qm</file>
+        <file alias="en_US">locale/sollida_en_US.qm</file>
+        <file alias="eo">locale/sollida_eo.qm</file>
+        <file alias="es">locale/sollida_es.qm</file>
+        <file alias="es_ES">locale/sollida_es_ES.qm</file>
+        <file alias="fi">locale/sollida_fi.qm</file>
+        <file alias="fr_FR">locale/sollida_fr_FR.qm</file>
+        <file alias="hi_IN">locale/sollida_hi_IN.qm</file>
+        <file alias="hr">locale/sollida_hr.qm</file>
+        <file alias="hr_HR">locale/sollida_hr_HR.qm</file>
+        <file alias="it">locale/sollida_it.qm</file>
+        <file alias="ja">locale/sollida_ja.qm</file>
+        <file alias="ko_KR">locale/sollida_ko_KR.qm</file>
+        <file alias="lt_LT">locale/sollida_lt_LT.qm</file>
+        <file alias="nl">locale/sollida_nl.qm</file>
+        <file alias="pl">locale/sollida_pl.qm</file>
+        <file alias="pt">locale/sollida_pt.qm</file>
+        <file alias="pt_BR">locale/sollida_pt_BR.qm</file>
+        <file alias="ro_RO">locale/sollida_ro_RO.qm</file>
+        <file alias="ru">locale/sollida_ru.qm</file>
+        <file alias="sk">locale/sollida_sk.qm</file>
+        <file alias="sv">locale/sollida_sv.qm</file>
+        <file alias="tr">locale/sollida_tr.qm</file>
+        <file alias="uk">locale/sollida_uk.qm</file>
+        <file alias="vi">locale/sollida_vi.qm</file>
+        <file alias="zh_CN">locale/sollida_zh_CN.qm</file>
+        <file alias="zh_TW">locale/sollida_zh_TW.qm</file>
+    </qresource>
+</RCC>

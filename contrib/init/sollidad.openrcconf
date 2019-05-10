@@ -1,0 +1,26 @@
+# /etc/conf.d/sollidad: config file for /etc/init.d/sollidad
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/sollida/sollida.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/sollidad"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/sollidad.pid"
+
+# Where to write sollidad data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/sollidad"
+
+# User and group to own sollidad process
+#BITCOIND_USER="sollida"
+#BITCOIND_GROUP="sollida"
+
+# Path to sollidad executable
+#BITCOIND_BIN="/usr/bin/sollidad"
+
+# Nice value to run sollidad under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
